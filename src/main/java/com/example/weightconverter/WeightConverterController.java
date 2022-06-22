@@ -12,5 +12,9 @@ public class WeightConverterController {
     public double ouncetogram(@RequestParam double ounce){
         return wc.ounceToGram(ounce);
     }
+    @RequestMapping("/kilogram")
+    public double stonetokilogram(@RequestParam double stone){
+        return wc.ounceToGram(stone);
+    }
 
 }

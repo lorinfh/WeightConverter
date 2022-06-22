@@ -16,4 +16,14 @@ public class WeightConverterTest {
         //Assert
         assertEquals(expected, result);
     }
+    @Test
+    void stonetokilogramTest(){
+        //Arrange
+        double stone = 1;
+        double expected = 6.35;
+        //Act
+        double result = wc.stoneToKilogram(stone);
+        //Assert
+        assertEquals(expected, result);
+    }
 }
